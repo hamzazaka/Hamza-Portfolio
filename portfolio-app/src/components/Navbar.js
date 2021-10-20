@@ -13,16 +13,13 @@ export default function Navbar() {
         <div className="collapse navbar-collapse navii" id="navbarTogglerDemo02">
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0 navii">
                 <li className="nav-item ">
-                    <a className="nav-link" href="#">Work<span className="sr-only"></span></a>
+                    <a className="nav-link" href="#">Home<span className="sr-only"></span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">News</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link " href="#">About</a>
+                    <a className="nav-link" href="#">About</a>
                 </li>
                 <li className="nav-item mynav">
-                    <a className="nav-link " href="#">Careers</a>
+                    <a className="nav-link " href="#">Projects</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link " href="#">Contact</a>
