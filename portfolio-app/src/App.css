@@ -522,7 +522,7 @@
     font-weight: 700;
 }
 .footer p{
-    margin-top:1.4rem;
+    margin-top:1.9rem;
     color: #eee;
     font-size: 1rem;
     line-height: 1.7;
@@ -540,7 +540,7 @@
 }
 
 .mysocial a i{
-  margin-top: 50px;
+  margin-top: 1.9rem;
    margin-right: 50px;
    font-size: 37px;
    text-align: center;
@@ -563,5 +563,14 @@
 .last{
   text-align: center;
   margin-top: 30px;
-  margin-left: 220px;
+  margin-left: 180px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.last p,a{
+  text-align: center;
+} 
+.last a{
+  font-weight: 600;
+  font-size: 15px;
 }

@@ -22,8 +22,8 @@ export default function Contact() {
                     <a href=""><i class="fas fa-briefcase"></i></a>
                 </div>
                 <div className='last1'></div>
-                <div className="col last">
-                    <p>© Copyright 2021. Made by <a href="">Hamza Zaka</a></p>
+                <div className="col-md-12 last">
+                    <p>© Copyright 2021. Made by <a href=""> Hamza Zaka</a></p>
                 </div>
             </div>
             
