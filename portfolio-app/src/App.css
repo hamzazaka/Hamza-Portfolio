@@ -444,6 +444,15 @@
 
 .project-page{
   background-color: #ffffff;
-  height: 100vh;
+  /* height: 100vh; */
   color: #000;
 }
+.project-img{
+  text-align: center;
+}
+
+.project-img img{ 
+   width: 580px;
+    height: 350px;  
+}
+
