@@ -19,14 +19,14 @@ export default function Aboutme() {
                 </div>
                 <div className="col-md-6 my-skills">
                     <h2>My Skills</h2>
-                    <a href="">HTML</a>
-                    <a href="">CSS</a>
-                    <a href="">Javascript</a>
-                    <a href="">React</a>
-                    <a href="">SASS</a>
-                    <a href="">Responsive Design</a>
-                    <a href="">GIT</a>
-                    <a href="">Github</a>
+                    <p href="">HTML</p>
+                    <p href="">CSS</p>
+                    <p href="">Javascript</p>
+                    <p href="">React</p>
+                    <p href="">SASS</p>
+                    <p href="">Responsive Design</p>
+                    <p href="">GIT</p>
+                    <p href="">Github</p>
                 </div>
             </div>
         </div>
