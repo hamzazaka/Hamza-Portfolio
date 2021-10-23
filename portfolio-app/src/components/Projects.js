@@ -1,5 +1,6 @@
 import React from 'react'
 import pic from '../assets/mobileandlaptop.png';
+import pic2 from '../assets/project.png';
 
 export default function Projects() {
     return (
@@ -14,21 +15,29 @@ export default function Projects() {
                     <img src={pic} alt="project" />
                 </div>
                 <div className="col-md-6 project-description">
-                    <h1>hello app</h1>
-                    <p>This is a great app </p>
-                    <a href="">button</a>
+                    <h1>Covid-19 Tracker</h1>
+                    <p>Yubter is a platform that I created where people can join the community of their favorite youtube channels and can be part of the conversation. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="" className='btn btn-contact'>Github</a>
+                    <a href="" className='btn btn-contact'>Live </a>
+
                 </div>
+
             </div>
-             <div className="row">
-                <div className="col-md-6 project-description">
-                    <h1>hello app</h1>
-                    <p>This is a great app </p>
-                    <a href="">button</a>
+
+
+               <div className="row">
+                
+                <div className="col-md-6 project-description pd-2">
+                    <h1>Hamza Porfolio</h1>
+                    <p>Yubter is a platform that I created where people can join the community of their favorite youtube channels and can be part of the conversation. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="" className='btn btn-contact'>Github</a>
+                    <a href="" className='btn btn-contact'>Live </a>
                 </div>
                 <div className="col-md-6 project-img">
-                    <img src={pic} alt="project" />
+                    <img src={pic2} alt="project" />
                 </div>
             </div>
+             
         </div>
     )
 }
