@@ -249,33 +249,7 @@
   transform-origin:0 50%;
 } */
 
-.socials{
-  /* position: absolute;
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none;
-  top: 40%;
-  border: 1px solid green; */
-  position: absolute;
-    top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
-    transform: translateY(-50%);
-    list-style: none;
 
-}
-.socials li {
-  /* border: 1px solid white;
-  font-size: 27px; */
-      width: 100%;
-    display: block;
-    padding: 1.2rem;
-    border-bottom: 2px solid #eee;
-    transition: background .3s;
-}
-.socials li i{
-  font-size: 23px;
-}
 
 /* //////////////  SCROLL MOUSE (Learned from webs cifar css scroll down Animation) /////////////////// */
 
@@ -587,4 +561,89 @@
   font-size: 38px;
   padding-right: 90px;
 
+}
+
+
+/* /////////// MOBILE VERSION //////////////// */
+
+@media (max-width: 768px){
+
+  /* HEADER */
+
+  .heading1{
+    padding-right: 40px;
+  }
+  .hh h1{
+    font-size: 1.7rem;
+  }
+  .hh h2{
+    margin-top: 20px;
+    font-size: 1.3rem;
+  }
+
+  .hello1 a{
+    font-size: 0.8rem;
+  
+  }
+
+/* About Page */
+
+.aboutme, .get-to-know-me{
+  text-align: center;
+  padding-right: 45px;
+  max-width: 100%;
+  /* padding-left: 45px; */
+}
+
+.aboutme h1{
+  font-size: 1.5rem;
+
+}
+
+.btn-contact{
+  text-align: center;
+}
+.get-to-know-me h2{
+   
+    font-size: 1.4rem;
+    
+}
+.my-skills {
+  margin-top: 50px;
+  /* margin-right:190px ; */
+  text-align: center;
+}
+.my-skills h2{
+  margin-right: 0px;
+  font-size: 1.4rem;
+}
+.my-skills {
+  padding-right: 100px;
+}
+
+
+/* PRODCUT PAGE */
+
+.project-description{
+  text-align: center;
+}
+
+.project-description h1{
+  font-size: 28px;
+}
+/* contact  */
+
+.contact-form p{
+  max-width: 100%;
+  font-size: 18px;
+}
+
+.footer h1{
+  text-align: center;
+}
+
+.last{
+  text-align: center;
+  padding-right: 190px;
+}
 }
