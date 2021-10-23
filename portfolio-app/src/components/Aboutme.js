@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Aboutme() {
     return (
-        <div className='about-page'>
+        <div id='About' className='about-page'>
         <div className='aboutme'>
             <h1>About me</h1>
             <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>

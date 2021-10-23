@@ -1,11 +1,12 @@
 import React from 'react';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import { Link } from 'react-scroll';
 
 export default function Header() {
 
     return (
         <>
-         <div className="contain heading1 ">
+         <div id='home' className="contain heading1 ">
         <div className="row">
             <div className="col-md-8 mx-auto hh">
                 <h1>Hey, I'm 
@@ -25,20 +26,22 @@ export default function Header() {
                 <h2>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
       </h2>
                 <div className="hello1">
-                <a className=" " href=""><span></span> PROJECTS</a>
-                <a className=" " href=""><span></span> RESUME</a>
-
+                <Link smooth={true} to='Projects' offset={-110}><span></span> PROJECTS</Link>
+                <a href=''><span></span> RESUME</a>
+                </div>
+                <div className="col-md-12 hello1 social-contacts">
+                    <a href=''><span></span><i class="fab fa-github"> GITHUB </i></a>
+                    <a href=''><span></span> <i class="fab fa-linkedin-in"> Linkedin</i></a>
                 </div>
             </div>
         </div>
     </div>
-     {/* <div className="socials">
-            <li><i class="fab fa-github"></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-
+     {/* <div className="mysocial">
+        
+         <a href=""><i class="fab fa-github"></i></a>
+         <a href=""><i class="fab fa-linkedin-in"></i></a>
         </div> */}
+
         <div className="scroll-mouse"></div>
     </>
 
