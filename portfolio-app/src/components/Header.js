@@ -25,20 +25,21 @@ export default function Header() {
                 <h2>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
       </h2>
                 <div className="hello1">
-                <a className=" " href="">PROJECTS</a>
-                <a className=" " href="">RESUME</a>
+                <a className=" " href=""><span></span> PROJECTS</a>
+                <a className=" " href=""><span></span> RESUME</a>
 
                 </div>
             </div>
         </div>
     </div>
-     <div className="socials">
+     {/* <div className="socials">
             <li><i class="fab fa-github"></i></li>
             <li><i class="fab fa-linkedin-in"></i></li>
             <li><i class="fab fa-linkedin-in"></i></li>
             <li><i class="fab fa-linkedin-in"></i></li>
 
-        </div>
+        </div> */}
+        <div className="scroll-mouse"></div>
     </>
 
     )
