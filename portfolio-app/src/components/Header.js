@@ -27,11 +27,11 @@ export default function Header() {
       </h2>
                 <div className="hello1">
                 <Link smooth={true} to='Projects' offset={-110}><span></span> PROJECTS</Link>
-                <a href=''><span></span> RESUME</a>
+                <a target='_blank' href='https://drive.google.com/file/d/1TC-h-Vmehb_pEV1bFjP6HPCkp8ShbxLl/view'><span></span> RESUME</a>
                 </div>
                 <div className="col-md-12 hello1 social-contacts">
-                    <a href=''><span></span><i class="fab fa-github"> GITHUB </i></a>
-                    <a href=''><span></span> <i class="fab fa-linkedin-in"> Linkedin</i></a>
+                    <a target='_blank' href='https://github.com/hamzazaka'><span></span><i class="fab fa-github">  Github </i></a>
+                    <a target='_blank' href='https://www.linkedin.com/in/hamzazaka/'><span></span> <i class="fab fa-linkedin-in"> Linkedin</i></a>
                 </div>
             </div>
         </div>

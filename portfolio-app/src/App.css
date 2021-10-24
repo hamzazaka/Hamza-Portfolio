@@ -553,14 +553,14 @@
 
 /* ////////////// Social Contact */
 
-.social-contact{
-  text-align: center;
+.social-contacts{
+  /* text-align: center; */
   margin-top: 50px;
+  margin-left: 18px;
 }
-.social-contact a i{
-  font-size: 38px;
-  padding-right: 90px;
-
+.social-contacts a i{
+  font-size: 12px;
+  font-weight: bold;
 }
 
 
@@ -581,7 +581,7 @@
     font-size: 1.3rem;
   }
 
-  .hello1 a{
+  .hello1 a, .social-contacts a i{
     font-size: 0.8rem;
   
   }

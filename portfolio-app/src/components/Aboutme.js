@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 export default function Aboutme() {
     return (
@@ -14,7 +15,7 @@ export default function Aboutme() {
                     <p>I also like sharing content related to the stuff that I have learned over the years in
                      <strong> Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a className='p-linkedin' href="">Linkedin</a> where I post useful content related to Web Development and Programming</p>
                     <p>I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact </strong> me.</p>
-                    <a className='btn btn-contact' href=""><span></span> Contact</a>
+                    <Link smooth={true} to='Contact' offset={-110} className='btn btn-contact' href=""><span></span> Contact</Link>
 
                 </div>
                 <div className="col-md-6 my-skills">

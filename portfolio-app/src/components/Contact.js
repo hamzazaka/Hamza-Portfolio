@@ -6,6 +6,7 @@ export default function Contact() {
             <div className='aboutme'>
             <h1>Contact</h1>
             <p>Feel free to Contact me, I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact </strong> me.</p>
+            <p><br /></p>
             <p><strong>Send me an email at <a href="mailto: hamzabutt887@hotmail.com">hamzabut887@hotmail.com</a> and ~let's talk.</strong></p>
             </div>
 
@@ -16,10 +17,10 @@ export default function Contact() {
                 </div>
                 <div className="col-md-4 mysocial">
                     <h1>Social</h1>
-                    <a href=""><i class="fab fa-github"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fas fa-briefcase"></i></a>
+                    <a href="https://github.com/hamzazaka"><i class="fab fa-github"></i></a>
+                    <a target='_blank' href="https://www.linkedin.com/in/hamzazaka/"><i class="fab fa-linkedin-in"></i></a>
+                    <a target='_blank' href="mailto: hamzabutt887@hotmail.com"><i class="fas fa-envelope"></i></a>
+                    <a target='_blank' href="https://drive.google.com/file/d/1TC-h-Vmehb_pEV1bFjP6HPCkp8ShbxLl/view"><i class="fas fa-briefcase"></i></a>
                 </div>
                 <div className='last1'></div>
                 <div className="col-md-12 last">
