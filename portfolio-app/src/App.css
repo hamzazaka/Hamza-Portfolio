@@ -564,9 +564,19 @@
 }
 
 .link2{
-  color: green !important;
   text-transform: uppercase;
+  color: green !important;
 }
+
+/* .btn-dang{
+  background-color: green;
+  color: black;
+}
+.btn-dang:hover{
+  background-color: green;
+  color:white;
+} */
+
 
 
 /* /////////// MOBILE VERSION //////////////// */
