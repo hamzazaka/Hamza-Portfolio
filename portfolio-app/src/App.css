@@ -563,6 +563,11 @@
   font-weight: bold;
 }
 
+.link2{
+  color: green !important;
+  text-transform: uppercase;
+}
+
 
 /* /////////// MOBILE VERSION //////////////// */
 
