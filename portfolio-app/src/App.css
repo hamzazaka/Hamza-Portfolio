@@ -580,11 +580,17 @@
     margin-top: 20px;
     font-size: 1.3rem;
   }
+  
 
-  .hello1 a, .social-contacts a i{
-    font-size: 0.8rem;
+  .hello1 a , .social-contacts a i{
+    font-size: 0.7rem;
   
   }
+  .social-contacts a i{
+    font-size: 0.6rem;
+  }
+
+  
 
 /* About Page */
 
