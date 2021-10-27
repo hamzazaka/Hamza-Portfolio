@@ -596,18 +596,17 @@
     margin-top: 20px;
     font-size: 1.3rem;
   }
-  
+   
 
    .hello1 a,.social-contacts a i{
-    font-size: 0.7rem;
-  
+    font-size: 0.5rem;
   }
   .social-contacts a i{
     font-size: 0.6rem;
   }
   .mygit{
-    margin-top: 50px;
-
+     margin: 5px 5px;
+     margin-top: 40px;
   }
 
   
@@ -644,9 +643,12 @@
   font-size: 1.4rem;
 }
 .my-skills {
-  padding-right: 100px;
+  /* padding-right: 100px; */
 }
-
+.my-skills p{
+  font-size: 0.9rem;
+  padding: 5px 15px;
+}
 
 /* PRODCUT PAGE */
 
@@ -656,6 +658,15 @@
 
 .project-description h1{
   font-size: 28px;
+}
+.project-img{
+  text-align: center;
+  margin-top: -150px;
+}
+
+.project-img img{ 
+   width: 380px;
+    height: 350px;  
 }
 /* contact  */
 
@@ -670,8 +681,8 @@
 
 .last{
   text-align: center;
-  padding-right: 190px;
   font-size: 12px;
+  margin-right: 210px;
 }
 .last p {
 font-size: 12px;
