@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from '../assets/mobileandlaptop.png';
-import pic2 from '../assets/project.png';
+import covid from '../assets/covid19.png';
 
 export default function Projects() {
     return (
@@ -12,7 +12,7 @@ export default function Projects() {
 
             <div className="row">
                 <div className="col-md-6 project-img">
-                    <img src={pic} alt="project" />
+                    <img src={covid} alt="project" />
                 </div>
                 <div className="col-md-6 project-description">
                     <h1>Covid-19 Tracker</h1>
@@ -27,7 +27,7 @@ export default function Projects() {
 
                <div className="row">
                 <div className="col-md-6 project-img">
-                    <img src={pic2} alt="project" />
+                    <img src={covid} alt="project" />
                 </div>
                 <div className="col-md-6 project-description pd-2">
                     <h1>Hamza Porfolio</h1>

@@ -20,14 +20,23 @@ export default function Aboutme() {
                 </div>
                 <div className="col-md-6 my-skills">
                     <h2>My Skills</h2>
+                    <p href="">React</p>
+                    <p href="">Redux</p>
+                    <p href="">JavaScript</p>
+                    <p href="">Bootstrap</p>
+                    <p href="">JSON</p>
+                    <p href="">Rest Apis</p>
+                    <p href="">User Interface Design</p>
+                    <p href="">Material-UI</p>
                     <p href="">HTML</p>
                     <p href="">CSS</p>
-                    <p href="">Javascript</p>
-                    <p href="">React</p>
+                    <p href="">Postman API</p>
                     <p href="">SASS</p>
                     <p href="">Responsive Design</p>
                     <p href="">GIT</p>
                     <p href="">Github</p>
+                    <p href="">Netlify</p>
+
                 </div>
             </div>
         </div>

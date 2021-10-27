@@ -427,11 +427,12 @@
 }
 .project-img{
   text-align: center;
+  margin-top: -150px;
 }
 
 .project-img img{ 
-   width: 580px;
-    height: 350px;  
+   width: 680px;
+    height: 650px;  
 }
 
 .project-description {
@@ -597,12 +598,16 @@
   }
   
 
-  .hello1 a , .social-contacts a i{
+   .hello1 a,.social-contacts a i{
     font-size: 0.7rem;
   
   }
   .social-contacts a i{
     font-size: 0.6rem;
+  }
+  .mygit{
+    margin-top: 50px;
+
   }
 
   
