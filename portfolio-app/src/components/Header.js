@@ -27,7 +27,7 @@ export default function Header() {
       </h2>
                 <div className="hello1">
                 <Link smooth={true} to='Projects' offset={-110}><span></span><i class="fas fa-code"> </i> PROJECTS</Link>
-                <a target='_blank' href='https://github.com/hamzazaka'><span></span> <i class="fab fa-github mygit"> </i>  GITHUB</a>
+                <a className='gitlost' target='_blank' href='https://github.com/hamzazaka'><span></span> <i class="fab fa-github mygit"> </i>  GITHUB</a>
                 </div>
             </div>
         </div>
