@@ -26,7 +26,7 @@ export default function Navbar() {
                     <Link smooth={true} to='Contact' offset={-110}  className="nav-link " href="#"><i class="fas fa-address-book"></i> Contact</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link link2 " target='_blank' href="https://drive.google.com/file/d/1TC-h-Vmehb_pEV1bFjP6HPCkp8ShbxLl/view"> Resume</a>
+                    <a className="nav-link link2 " target='_blank' href="https://drive.google.com/file/d/1-9jBDtOKT1_XFIJiXiCDs9jYyq6XuLPu/view"> Resume</a>
                 </li>
                 {/* <a className='btn btn-dang' target='_blank' href="https://drive.google.com/file/d/1TC-h-Vmehb_pEV1bFjP6HPCkp8ShbxLl/view">RESUME</a> */}
             </ul>

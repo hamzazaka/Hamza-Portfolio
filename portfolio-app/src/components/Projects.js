@@ -60,7 +60,7 @@ export default function Projects() {
                     <img src={bookstop} alt="project" />
                 </div>
                 <div className="col-md-6 project-description pd-2">
-                    <h1>Hamza Porfolio</h1>
+                    <h1>BookStop</h1>
                     <p>BookStop is a React app that works with the BookStop API server-side. The app allows a user to log in, track books they have already read and books they want to read in two separate lists, and search for new reads using the Google API.</p>
                      <p><strong>Technologies :</strong> React, React-Hooks, JavaScript, CSS, Bootstrap, Node.js, MERN, Yarn, Canva </p>
                     <a target='_blank' href="https://github.com/bookstop/frontend" className='btn btn-contact'>Github</a>
