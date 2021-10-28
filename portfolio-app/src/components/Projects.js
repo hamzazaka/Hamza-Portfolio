@@ -63,8 +63,8 @@ export default function Projects() {
                     <h1>Hamza Porfolio</h1>
                     <p>BookStop is a React app that works with the BookStop API server-side. The app allows a user to log in, track books they have already read and books they want to read in two separate lists, and search for new reads using the Google API.</p>
                      <p><strong>Technologies :</strong> React, React-Hooks, JavaScript, CSS, Bootstrap, Node.js, MERN, Yarn, Canva </p>
-                    <a target='_blank' href="" className='btn btn-contact'>Github</a>
-                    <a target='_blank' href="" className='btn btn-contact'>Live </a>
+                    <a target='_blank' href="https://github.com/bookstop/frontend" className='btn btn-contact'>Github</a>
+                    <a target='_blank' href="https://bookstop-books.netlify.app/" className='btn btn-contact'>Live </a>
                 </div>
 
             </div>
