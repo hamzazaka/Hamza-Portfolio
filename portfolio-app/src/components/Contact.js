@@ -10,7 +10,7 @@ export default function Contact() {
             <p><br /></p>
             <p><strong>Send me an email at <a href="mailto: hamzabutt887@hotmail.com">hamzabutt887@hotmail.com</a> and ~let's talk.</strong></p>
             </div>
-
+            
             <div className="row end">
                 <div className="col-md-8 footer">
                     <h1>hamza Zaka</h1>
