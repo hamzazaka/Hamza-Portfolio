@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import imgme from '../assets/profile-pic.jpeg'
 
 export default function Aboutme() {
     return (
@@ -10,7 +11,9 @@ export default function Aboutme() {
             </div>
             <div className="row ">
                 <div className="col-md-6 get-to-know-me" >
-                    <h2>Get to know me</h2>
+                    <h2>
+                    <img className='imgme' src={imgme} alt="" />
+                    </h2>
                     <p>I'm a <strong>Frontend Web Developer</strong> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.</p>
                     <p>I also like sharing content related to the stuff that I have learned over the years in
                      <strong> Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a className='p-linkedin' target='_blank' href="https://www.linkedin.com/in/hamzazaka/">Linkedin</a> where I post useful content related to Web Development and Programming</p>
@@ -25,7 +28,7 @@ export default function Aboutme() {
                     <p href="">JavaScript</p>
                     <p href="">Bootstrap</p>
                     <p href="">JSON</p>
-                    <p href="">Rest Apis</p>
+                    <p href="">REST API</p>
                     <p href="">User Interface Design</p>
                     <p href="">Material-UI</p>
                     <p href="">HTML</p>

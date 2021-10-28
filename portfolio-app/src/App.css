@@ -101,6 +101,13 @@
   transform-origin:0 50%;
 }
 
+/* Skill about me Image */
+.imgme{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
 /* NAVBAR  FOR MOBILE */
 
 @media (max-width: 768px){
@@ -345,13 +352,13 @@
 }
 
 .row{
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .get-to-know-me h2{
-   font-weight: 700;
-    font-size: 1.7rem;
-    margin-bottom: 3rem;
+   /* font-weight: 700;
+    font-size: 1.7rem; */
+    margin-bottom: .5rem;
 }
 
 .get-to-know-me p{
@@ -582,7 +589,21 @@
 
 /* /////////// MOBILE VERSION //////////////// */
 
-@media (max-width: 768px){
+@media (max-width: 1150px){
+  .project-img img{ 
+   width: 480px;
+    height: 450px;  
+}
+.project-img {
+    text-align: center;
+    margin-top: 0px;
+}
+.project-img:first-child{
+  margin-top: 15px;
+}
+}
+
+@media (max-width: 798px){
 
   /* HEADER */
 
