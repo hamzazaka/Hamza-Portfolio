@@ -9,7 +9,7 @@ export default function Projects() {
         <div id='Projects' className='project-page'>
             <div className='aboutme'>
             <h1>Projects</h1>
-            <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+            <p>Here you will find some of the projects that I created with each project containing it's github and live access</p>
             </div>
 
             <div className="row">
@@ -18,7 +18,7 @@ export default function Projects() {
                 </div>
                 <div className="col-md-6 project-description">
                     <h1>Covid-19 Tracker</h1>
-                    <p>Covid19 is a <strong>React-Js project</strong> developed in support of people suffering and affected due to Covid-19 virus all around the world. The app takes a very simple and light weight design keeping in mind proper responsiveness throughout different platforms like web and mobile responsiveness. The app lets the user track the growth of active cases in their country and provides statistics from all around the world.</p>
+                    <p>Covid-19 is a <strong>React project</strong> developed in support of people suffering and affected due to Covid-19 virus all around the world. The app takes a very simple and light weight design keeping in mind proper responsiveness throughout different platforms like web and mobile responsiveness. The app lets the user track the growth of active cases in their country and provides statistics from all around the world.</p>
                      <p><strong>Technologies :</strong> React, Chart.js, JavaScript, CSS, Bootstrap, Material UI, JSON, REST APIS</p>
                     <a rel="noreferrer noopener" target='_blank' href="https://github.com/hamzazaka/COVID-19-Tracker" className='btn btn-contact'>Github</a>
                     <a rel="noreferrer noopener" target='_blank' href="https://covid-19-my.netlify.app" className='btn btn-contact'>Live </a>
