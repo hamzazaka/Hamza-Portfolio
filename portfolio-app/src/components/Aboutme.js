@@ -42,6 +42,7 @@ export default function Aboutme() {
                     <p href="">GIT</p>
                     <p href="">Github</p>
                     <p href="">Netlify</p>
+                    <p href="">Firebase</p>
 
                 </div>
             </div>

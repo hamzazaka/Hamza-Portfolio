@@ -20,7 +20,7 @@ export default function Contact() {
                     <h1>Social</h1>
                     <a href="https://github.com/hamzazaka"><i class="fab fa-github"></i></a>
                     <a target='_blank' href="https://www.linkedin.com/in/hamzazaka/"><i class="fab fa-linkedin-in"></i></a>
-                    <a target='_blank' href="mailto: hamzabutt887@hotmail.com"><i class="fas fa-envelope"></i></a>
+                    <a target='_blank' href="mailto:hamzazaka887@gmail.com"><i class="fas fa-envelope"></i></a>
             <a target='_blank' href={resume}><i class="fas fa-briefcase"></i></a>
                 </div>
                 <div className='last1'></div>
