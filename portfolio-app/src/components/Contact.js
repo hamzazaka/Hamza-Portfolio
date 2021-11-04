@@ -8,7 +8,7 @@ export default function Contact() {
             <h1>Contact</h1>
             <p>Feel free to Contact me, I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact </strong> me.</p>
             <p><br /></p>
-            <p><strong>Send me an email at <a href="mailto: hamzazaka887@gmail.com">hamzazaka887@gmail.com</a> and ~let's talk.</strong></p>
+            <p><strong>Send me an email at <a href="mailto:hamzazaka887@gmail.com">hamzazaka887@gmail.com</a> and ~let's talk.</strong></p>
             </div>
             
             <div className="row end">
